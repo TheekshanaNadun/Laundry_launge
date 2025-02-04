@@ -1,0 +1,110 @@
+/* LOGIN PAGE / SIGN UP PAGE */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+.fullcontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: linear-gradient(to right, rgba(147, 142, 187, 0.37)50%, rgba(13, 8, 41, 0.37)50%), url("https://findit-resources.s3.amazonaws.com/forums/1697139328702.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.mainbox {
+    border-radius: 0px;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(209, 212, 226);
+    border-radius: 11px;
+    padding: 35px 25px;
+}
+
+h1 {
+    text-align: center;
+    color: #142D66;
+}
+
+.inputbox {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    background: transparent;
+    position: relative;
+}
+
+input::placeholder {
+    color: #142D66;
+}
+
+.inputbox input {
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #142D66;
+    background: transparent;
+    font-size: 14px;
+    caret-color:#142D66;
+}
+
+.logindetail {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.logindetail p{
+    font-weight: bold;
+    color:#5784EB;
+}
+.logindetail a{
+    color:#142D66;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input[type="submit"] {
+    width: 200px;
+    height: 40px;
+    border: 2px solid #142D66;
+    margin: 12px;
+    background: transparent;
+    font-weight: bold;
+    font-size: 15px;
+    color: #142D66;
+}
+input[type="submit"]:hover{
+    border-color: #142D66;
+    background-color:#142D66;
+    color: white;
+}
+.foot {
+    margin-top: 10px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    color: #5784EB;
+}
+
+.mainbox a {
+    color: #142D66;
+    font-weight: bold;
+    font-size: 15px;
+}
